@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/value_curr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:text="BITCOIN"
+        android:textStyle="bold|italic" />
+
+
+    <LinearLayout
+        android:id="@+id/first_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/value_curr"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text_last_traded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last Traded"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/value_last_traded"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1332500.0"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text_lowest_ask"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lowest Ask"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/value_lowest_ask"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="1332500.0"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text_highest_bid"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="High Bid"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/value_highest_bid"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="1332500.0"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_layout"
+        android:layout_margin="20dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text_min_24"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="Min 24"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/value_min_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="1332500.0"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text_max_24"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="max 24"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/value_max_24"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="1332500.0"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/text_vol_24"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="Vol 24"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/value_vol_24"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="1332500.0"
+                android:textAlignment="center" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
